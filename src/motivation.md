@@ -15,3 +15,16 @@ What this book describes:
 - Automation is minimal, but things are low-level enough that you can use
   your automation tool of choice (ssh, Ansible, etc.)
 - Services can run directly on the server or be run from Docker
+
+
+Non-goals:
+
+- **Automation**: This book doesn't prescribe a means of automating the tasks it
+  descries. Some of them only happen infrequently, and might not be worth it to
+  you to automate. Others can be easily integrated into a task runner of your
+  choice (e.g. `make`). Either way, enough details tend to arise in the
+  automation process that it's may not be worth it to you.
+- **Hyper-scalability**: This book is for side projects that might serve a
+  static site to a few thousand people or a dynamic site to a few dozen. It's
+  the software equivalent of a dog house or a nice gazebo, not a multi-story
+  steel-reinforced-concrete apartment building.
