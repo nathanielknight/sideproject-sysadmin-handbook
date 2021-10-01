@@ -23,3 +23,4 @@
 # Administration
 <!-- Miscellaneous notes on administering the server -->
 - [SystemD Scheduled Jobs]()
+- [HTTP Basic Auth](admin/basic-auth.md)
