@@ -18,8 +18,8 @@ And here's a reverse-proxy service with basic auth enabled:
 
 ```Caddyfile
 webdun.nathanielknight.ca {
-    reverse_proxy / <ip address of my home server>:<service port>
-    basicauth / {
+    reverse_proxy * <ip address of my home server>:<service port>
+    basicauth * {
         nknight <password hash that I'm not going to show you even though it would probably be fine if I did>
     }
 }
