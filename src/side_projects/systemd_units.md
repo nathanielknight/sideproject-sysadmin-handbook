@@ -1,6 +1,6 @@
 # Services
 
-systemd services are a way of starting (and  re-starting) a service.
+systemd services are a way of starting (and  re-starting) a process.
 A process that's set up as a systemd service will automatically be integrated
 the [journald logging service](https://man7.org/linux/man-pages/man8/systemd-journald.8.html),
 can be started and stopped using [systemctl](https://man7.org/linux/man-pages/man1/systemctl.1.html),

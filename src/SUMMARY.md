@@ -20,7 +20,8 @@
 - [Services](side_projects/systemd_units.md)
 <!-- How to handle individual side projects -->
 
-# Administration
+# Misc
 <!-- Miscellaneous notes on administering the server -->
 - [SystemD Scheduled Jobs]()
 - [HTTP Basic Auth](admin/basic-auth.md)
+- [Custom Images for Docker Compose](misc/building-containers-for-docker-compose.md)
