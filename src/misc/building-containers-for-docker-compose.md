@@ -19,7 +19,7 @@ object instead of an `image`:
 ```yaml
 version: "3.9"
 services:
-  svc-name:
+  <service name>:
     image: <this is the *name* of the built image; docker won't go find this image elsewhere>
     build:
       context: <path to a dir or git repo with a Dockerfile>
