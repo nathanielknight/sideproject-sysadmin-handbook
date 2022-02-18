@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Sideproject Sysadmin Handbook"
+
+[build]
+build-dir = "doc"
+
