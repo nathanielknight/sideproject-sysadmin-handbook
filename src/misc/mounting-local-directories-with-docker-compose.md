@@ -6,7 +6,9 @@ code outside of the container, add a volume mount to your service:
 ```yaml
 version: "3.9"
 services:
-  example-service:
+  <service-name>:
     image: python:slim
-    volume: 
+    volume:
+      - ./in-project:/in-container
+      - ~on-host:/in-container
 ```
